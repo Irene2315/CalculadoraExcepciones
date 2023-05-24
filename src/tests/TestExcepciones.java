@@ -21,7 +21,7 @@ class TestExcepciones {
 	}
 	
 	@Test
-	@DisplayName("Divisor Cero Error")
+	@DisplayName("Dividir entre 0")
 	void testDivideZero() {
 	    IllegalArgumentException e = assertThrows( IllegalArgumentException.class, () -> {
 	    	calculator.divide(1, 0);
